@@ -1,0 +1,58 @@
+JSX is converted into JavaScript behind the scenes.
+React uses React.createElement() to turn the JSX code into actual HTML elements that the browser can understand.
+When React processes this JSX code, it converts it into JavaScript using Babel.
+This JavaScript code then creates real HTML elements in the browser’s DOM which is how your web page gets displayed.
+React Creates Elements: React takes the JavaScript code generated from JSX and uses it to create real DOM elements that the browser can render on the screen.
+
+--------------------------------------------------------------------------------------------------
+   #--------------------RENDER--------------------------------------#
+
+
+ Rendering = turning code into visible UI (HTML/CSS) in the browser.
+The Term "Render" usually refers to the process of generating and displaying content on the screen, whether it’s in a browser or in a virtual DOM.
+
+
+🧠 1. Client-Side Rendering (CSR)
+In frameworks like React, rendering means:
+
+Taking components (JSX/JavaScript) and turning them into actual HTML elements in the browser.
+
+It happens in the user's browser using JavaScript
+-----------------------------------------------------------------------------------------------------
+
+🧠 2. Server-Side Rendering (SSR)
+In SSR (like with Next.js or traditional server-side languages), rendering happens on the server, and the fully formed HTML is sent to the browser.
+
+Better for SEO and faster first load.
+
+The server renders the page before it's sent to the client.
+
+------------------------------------------------------------------------------------------------------
+
+🧠 3. Static Site Generation (SSG)
+Similar to SSR but happens at build time instead of on each request. For example, Next.js can pre-render pages as static HTML ahead of time.
+
+----------------------------------------------------------------------------------------------------------
+
+🧠 4. Re-rendering
+This refers to a component updating and rendering again — for example, when state or props change in React, the component re-renders to show the new data.
+
+
+--------------------------------------------------------------------------------------------------------------------------
+How to use the EventListener Event()..........?
+
+first create a function inside the main function so that there is no matter of block scope variable..
+NOW while using the event listner call it by using the name not by using it as the method.......
+FOR EXAMPLE....
+<button onClick={name}>Change User</button>
+
+----------------------------------------------------------------------------------------------------------
+HOW TO CHANGE THE USERNAME USING THE BUTTON 
+By using the hooks.
+const [a,setA]=useState(1)  where a=readable in Nature    and   b=writable in nature
+
+
+
+
+
+  
